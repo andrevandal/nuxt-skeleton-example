@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm mx-auto place-content-center max-w-fit py-4">
+  <div class="mx-auto place-content-center max-w-fit py-4">
     <div v-if="pending" class="flex flex-col items-start gap-y-4">
       <SkeletonPokemonCard v-for="item in Array(9)" :key="`skeleton-${item}`" />
     </div>
